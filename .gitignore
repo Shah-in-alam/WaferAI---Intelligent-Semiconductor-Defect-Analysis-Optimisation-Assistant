@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Trained model artifacts
+*.h5
+*.keras
+*.pb
+
+# Dataset (large, gitignored)
+data/raw/
+*.pkl
+
+# Generated outputs
+*.pdf
+outputs/
+.gradio/
+
+# Test / build
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Frontend
+web/node_modules/
+web/dist/
+web/.vite/
+.pdf_cache/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
